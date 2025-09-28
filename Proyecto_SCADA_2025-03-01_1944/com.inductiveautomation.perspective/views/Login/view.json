@@ -1,0 +1,225 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 241,
+      "width": 340
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "contextMenu": {
+            "enabled": true
+          },
+          "name": "UserText",
+          "tooltip": {
+            "enabled": true
+          }
+        },
+        "position": {
+          "height": 32,
+          "width": 134,
+          "x": 134,
+          "y": 47
+        },
+        "props": {
+          "text": "Gaby"
+        },
+        "type": "ia.input.text-field"
+      },
+      {
+        "meta": {
+          "contextMenu": {
+            "enabled": true
+          },
+          "name": "PasswordText",
+          "tooltip": {
+            "enabled": true
+          }
+        },
+        "position": {
+          "height": 32,
+          "width": 163,
+          "x": 134,
+          "y": 91
+        },
+        "props": {
+          "text": "SCADA2024"
+        },
+        "type": "ia.input.password-field"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 62,
+          "x": 38,
+          "y": 47
+        },
+        "props": {
+          "text": "Usuario"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 32,
+          "width": 88,
+          "x": 20,
+          "y": 91
+        },
+        "props": {
+          "text": "Contraseña"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_1"
+        },
+        "position": {
+          "height": 32,
+          "width": 326,
+          "x": 13,
+          "y": 6
+        },
+        "props": {
+          "text": "Por favor ingrese su usuario y contraseña."
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\timport time\n\tfrom time import sleep\n\tusername \u003d self.getSibling(\"UserText\").props.text\n\tpassword \u003d self.getSibling(\"PasswordText\").props.text\n\t# Validar las credenciales\n\tif username \u003d\u003d \"Gaby\" and password \u003d\u003d \"SCADA2024\":\n\t\tself.getSibling(\"ErrorLabel\").props.style.color \u003d \"Green\"\n\t\tself.getSibling(\"ErrorLabel\").props.text \u003d \"Usuario Autorizado.\"\n\t\tsystem.tag.writeBlocking([\"[default]Proyecto/New Tag 2\"], True) # Enviar el número a la tag\n\t\ttime.sleep(1)\n\t\tsystem.perspective.closePopup(\"popup1\")\n\telse:\n\t\tself.getSibling(\"ErrorLabel\").props.text \u003d \"Usuario o clave incorrectos.\""
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 34,
+          "width": 80,
+          "x": 68.964276059,
+          "y": 147.96022415161133
+        },
+        "propConfig": {
+          "props.number": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "session.custom.number"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#246290"
+          },
+          "text": "Aceptar"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "draggable": true,
+                "id": "popup1",
+                "modal": true,
+                "overlayDismiss": true,
+                "resizable": true,
+                "showCloseIcon": true,
+                "title": "Autenticación",
+                "type": "close",
+                "viewParams": {
+                  "number": "0"
+                },
+                "viewPath": "Login",
+                "viewportBound": false
+              },
+              "scope": "C",
+              "type": "popup"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_0"
+        },
+        "position": {
+          "height": 34,
+          "width": 80,
+          "x": 175.46004364013672,
+          "y": 147.97762075805664
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#E80606"
+          },
+          "text": "Cancelar"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "ErrorLabel",
+          "tooltip": {
+            "location": "center"
+          }
+        },
+        "position": {
+          "height": 32,
+          "width": 250,
+          "x": 38,
+          "y": 192
+        },
+        "props": {
+          "style": {
+            "color": "Green",
+            "textAlign": "center"
+          }
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root",
+      "tooltip": {
+        "location": "center"
+      }
+    },
+    "position": {
+      "x": 23.987205505371094,
+      "y": 3.4886341094970703
+    },
+    "propConfig": {
+      "custom.number": {
+        "binding": {
+          "config": {
+            "bidirectional": true,
+            "path": "session.custom.number"
+          },
+          "type": "property"
+        }
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

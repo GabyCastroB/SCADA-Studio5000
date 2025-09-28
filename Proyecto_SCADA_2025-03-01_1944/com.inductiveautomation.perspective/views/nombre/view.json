@@ -1,0 +1,150 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 128,
+      "width": 2103
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "TextField"
+        },
+        "position": {
+          "height": 91,
+          "width": 607,
+          "x": 954.5,
+          "y": 9
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#FFFFFF00",
+            "borderColor": "#FFFFFF00",
+            "color": "#FFFFFF",
+            "fontFamily": "Merriweather",
+            "fontSize": 80
+          },
+          "text": "Proyecto SCADA"
+        },
+        "type": "ia.input.text-field"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "main"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 60,
+          "width": 151.33,
+          "x": 18,
+          "y": 62
+        },
+        "props": {
+          "image": {
+            "icon": {
+              "path": "material/house"
+            }
+          },
+          "text": "Principal",
+          "textStyle": {
+            "fontSize": 20
+          }
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Alarmas"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_0"
+        },
+        "position": {
+          "height": 60,
+          "width": 151.34,
+          "x": 169.33,
+          "y": 62
+        },
+        "props": {
+          "image": {
+            "icon": {
+              "path": "material/notifications_active"
+            }
+          },
+          "text": "Alarmas",
+          "textStyle": {
+            "fontSize": 20
+          }
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Historicos"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_1"
+        },
+        "position": {
+          "height": 60,
+          "width": 151.33,
+          "x": 320.67,
+          "y": 62
+        },
+        "props": {
+          "image": {
+            "icon": {
+              "path": "material/insights"
+            }
+          },
+          "text": "Historicos",
+          "textStyle": {
+            "fontSize": 20
+          }
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#89B0CF"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

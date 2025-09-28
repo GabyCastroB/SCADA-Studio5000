@@ -1,0 +1,2964 @@
+{
+  "custom": {
+    "number": null
+  },
+  "params": {},
+  "propConfig": {
+    "custom.number": {
+      "binding": {
+        "config": {
+          "bidirectional": true,
+          "path": "session.custom.number"
+        },
+        "type": "property"
+      },
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 1062,
+      "width": 2329
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Industrial platform 1"
+        },
+        "position": {
+          "height": 411.61,
+          "width": 430.36,
+          "x": 376.10267639160156,
+          "y": 31.16105
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M405,191 l-79,-88 -11,0 90,101 0,-13z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M93,191 l79,-88 12,0 -91,101 0,-13z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M96,719 l76,-74 12,0 -88,88 0,-14z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M403,720 l-77,-75 -11,0 88,88 0,-13z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M405,444 l-79,-75 -11,0 90,88 0,-13z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M93,444 l79,-75 12,0 -91,88 0,-13z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M99,321 l0,-62 302,0 0,62 -8,0 0,-56 -140,0 0,20 140,0 0,6 -140,0 0,30 -8,0 0,-30 -138,0 0,-6 138,0 0,-20 -138,0 0,56 -8,0z",
+              "fill": {
+                "paint": "#c90"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M61,967 l0,-896 376,0 0,896 -32,0 0,-864 -312,0 0,864 -32,0z M93,885 l312,0 0,34 -312,0 0,-34z M93,635 l312,0 0,34 -312,0 0,-34z ",
+              "fill": {
+                "paint": "#4c4c4c",
+                "rule": "evenodd"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M61,967 l0,-896 376,0 0,896 -32,0 0,-864 -312,0 0,864 -32,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M93,885 l312,0 0,34 -312,0 0,-34",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M93,635 l312,0 0,34 -312,0 0,-34",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M93,915 l0,-30 -52,26 0,46 52,-42z",
+              "fill": {
+                "paint": "#7f7f7f"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M405,915 l0,-30 52,26 0,46 -52,-42z",
+              "fill": {
+                "paint": "#7f7f7f"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M93,665 l0,-30 -52,14 0,42 52,-26z",
+              "fill": {
+                "paint": "#7f7f7f"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M405,665 l0,-30 52,14 0,42 -52,-26z",
+              "fill": {
+                "paint": "#7f7f7f"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M405,103 l32,0 62,-62 -42,0 -52,62z",
+              "fill": {
+                "paint": "#7f7f7f"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M93,103 l-32,0 -61,-62 41,0 52,62z",
+              "fill": {
+                "paint": "#7f7f7f"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M93,103 l0,-32 -52,-71 0,41 52,62z",
+              "fill": {
+                "paint": "#b2b2b2"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M405,103 l0,-32 52,-71 0,41 -52,62z",
+              "fill": {
+                "paint": "#b2b2b2"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M93,635 l-32,0 -61,14 41,0 52,-14z",
+              "fill": {
+                "paint": "#b2b2b2"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M405,635 l32,0 62,14 -42,0 -52,-14z",
+              "fill": {
+                "paint": "#b2b2b2"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M93,885 l-32,0 -61,26 41,0 52,-26z",
+              "fill": {
+                "paint": "#b2b2b2"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M405,885 l32,0 62,26 -42,0 -52,-26z",
+              "fill": {
+                "paint": "#b2b2b2"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,333 l0,666",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M177,333 l0,666",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,373 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,415 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,457 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,499 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,541 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,583 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,623 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,665 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,707 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,749 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,791 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,833 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,873 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,915 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M113,957 l64,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M0,999 l0,-999 499,0 0,999 -42,0 0,-958 -416,0 0,958 -41,0z M41,911 l416,0 0,46 -416,0 0,-46z M41,649 l416,0 0,48 -416,0 0,-48z ",
+              "fill": {
+                "paint": "#b2b2b2",
+                "rule": "evenodd"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,999 l0,-999 499,0 0,999 -42,0 0,-958 -416,0 0,958 -41,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M41,911 l416,0 0,46 -416,0 0,-46",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M41,649 l416,0 0,48 -416,0 0,-48",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M9,993 l0,-984 480,0 0,984 -22,0 0,-962 -436,0 0,962 -22,0z M41,921 l416,0 0,26 -416,0 0,-26z M41,661 l416,0 0,26 -416,0 0,-26z ",
+              "fill": {
+                "paint": "#666",
+                "rule": "evenodd"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M41,353 l416,0 0,16 -416,0 0,-16z",
+              "fill": {
+                "paint": "#666"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M41,333 l416,0 0,20 -416,0 0,-20z",
+              "fill": {
+                "paint": "#ccc"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M457,145 l-104,-104 -16,0 120,120 0,-16z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M41,145 l104,-104 16,0 -120,120 0,-16z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M41,801 l104,-104 16,0 -120,120 0,-16z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M457,801 l-104,-104 -16,0 120,120 0,-16z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M457,473 l-104,-104 -16,0 120,120 0,-16z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M41,473 l104,-104 16,0 -120,120 0,-16z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M207,749 l-20,-42 124,0 -20,42 -84,0z",
+              "fill": {
+                "paint": "#d9d9d9"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M187,707 l20,-84 84,0 20,84 -124,0z",
+              "fill": {
+                "paint": "#999"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M207,749 l10,-42",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#7f7f7f",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M291,749 l-10,-42",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#7f7f7f",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M41,333 l52,-12 312,0 52,12 -416,0z",
+              "fill": {
+                "paint": "#f2f2f2"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M51,333 l0,-84 396,0 0,84 -10,0 0,-74 -182,0 0,32 182,0 0,10 -182,0 0,32 -12,0 0,-32 -182,0 0,-10 182,0 0,-32 -182,0 0,74 -10,0z",
+              "fill": {
+                "paint": "#fc0"
+              },
+              "name": "path",
+              "type": "path"
+            }
+          ],
+          "viewBox": "0 0 499 999"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Red pilot light 2"
+        },
+        "position": {
+          "height": 34.31,
+          "width": 35.59,
+          "x": 673.0926763916016,
+          "y": 30.47105
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "d": "M112.159,56.249c0-31.027-25.031-56.192-55.909-56.192  c-30.876,0-55.909,25.166-55.909,56.192c0,31.03,25.033,56.194,55.909,56.194C87.128,112.443,112.159,87.279,112.159,56.249z",
+              "fill": {
+                "paint": "#FF0000"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#000000",
+                "width": "0.25"
+              },
+              "type": "path"
+            },
+            {
+              "cx": "47.9697",
+              "cy": "39.9521",
+              "elements": [
+                {
+                  "name": "stop",
+                  "offset": "0",
+                  "stopColor": "#FFD9D9",
+                  "style": {
+                    "stopColor": "#FFD9D9"
+                  },
+                  "type": "stop"
+                },
+                {
+                  "name": "stop",
+                  "offset": "1",
+                  "stopColor": "#FF0000",
+                  "style": {
+                    "stopColor": "#FF0000"
+                  },
+                  "type": "stop"
+                }
+              ],
+              "gradientTransform": "matrix(2.4946 0 0 2.2816 -80.674 -47.8871)",
+              "gradientUnits": "userSpaceOnUse",
+              "id": "SVGID_1_",
+              "name": "SVGID_1_",
+              "r": "14.0757",
+              "type": "radialGradient"
+            },
+            {
+              "cx": "38.993",
+              "cy": "43.266",
+              "fill": {
+                "url": "url(#SVGID_1_)"
+              },
+              "name": "ellipse",
+              "rx": "35.114",
+              "ry": "32.115",
+              "type": "ellipse"
+            }
+          ],
+          "viewBox": "0 0 112.5 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Red pilot light 3"
+        },
+        "position": {
+          "height": 34.3,
+          "width": 35.59,
+          "x": 673.0926763916016,
+          "y": 164.35125
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "d": "M112.159,56.249c0-31.027-25.031-56.192-55.909-56.192  c-30.876,0-55.909,25.166-55.909,56.192c0,31.03,25.033,56.194,55.909,56.194C87.128,112.443,112.159,87.279,112.159,56.249z",
+              "fill": {
+                "paint": "#FF0000"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#000000",
+                "width": "0.25"
+              },
+              "type": "path"
+            },
+            {
+              "cx": "47.9697",
+              "cy": "39.9521",
+              "elements": [
+                {
+                  "name": "stop",
+                  "offset": "0",
+                  "stopColor": "#FFD9D9",
+                  "style": {
+                    "stopColor": "#FFD9D9"
+                  },
+                  "type": "stop"
+                },
+                {
+                  "name": "stop",
+                  "offset": "1",
+                  "stopColor": "#FF0000",
+                  "style": {
+                    "stopColor": "#FF0000"
+                  },
+                  "type": "stop"
+                }
+              ],
+              "gradientTransform": "matrix(2.4946 0 0 2.2816 -80.674 -47.8871)",
+              "gradientUnits": "userSpaceOnUse",
+              "id": "SVGID_1_",
+              "name": "SVGID_1_",
+              "r": "14.0757",
+              "type": "radialGradient"
+            },
+            {
+              "cx": "38.993",
+              "cy": "43.266",
+              "fill": {
+                "url": "url(#SVGID_1_)"
+              },
+              "name": "ellipse",
+              "rx": "35.114",
+              "ry": "32.115",
+              "type": "ellipse"
+            }
+          ],
+          "viewBox": "0 0 112.5 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Red pilot light 4"
+        },
+        "position": {
+          "height": 34.3,
+          "width": 35.59,
+          "x": 673.0926763916016,
+          "y": 289.97125
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "d": "M112.159,56.249c0-31.027-25.031-56.192-55.909-56.192  c-30.876,0-55.909,25.166-55.909,56.192c0,31.03,25.033,56.194,55.909,56.194C87.128,112.443,112.159,87.279,112.159,56.249z",
+              "fill": {
+                "paint": "#FF0000"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#000000",
+                "width": "0.25"
+              },
+              "type": "path"
+            },
+            {
+              "cx": "47.9697",
+              "cy": "39.9521",
+              "elements": [
+                {
+                  "name": "stop",
+                  "offset": "0",
+                  "stopColor": "#FFD9D9",
+                  "style": {
+                    "stopColor": "#FFD9D9"
+                  },
+                  "type": "stop"
+                },
+                {
+                  "name": "stop",
+                  "offset": "1",
+                  "stopColor": "#FF0000",
+                  "style": {
+                    "stopColor": "#FF0000"
+                  },
+                  "type": "stop"
+                }
+              ],
+              "gradientTransform": "matrix(2.4946 0 0 2.2816 -80.674 -47.8871)",
+              "gradientUnits": "userSpaceOnUse",
+              "id": "SVGID_1_",
+              "name": "SVGID_1_",
+              "r": "14.0757",
+              "type": "radialGradient"
+            },
+            {
+              "cx": "38.993",
+              "cy": "43.266",
+              "fill": {
+                "url": "url(#SVGID_1_)"
+              },
+              "name": "ellipse",
+              "rx": "35.114",
+              "ry": "32.115",
+              "type": "ellipse"
+            }
+          ],
+          "viewBox": "0 0 112.5 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Motor"
+        },
+        "position": {
+          "height": 108.27,
+          "width": 105.7,
+          "x": 353.50267639160154,
+          "y": 80.42105
+        },
+        "propConfig": {
+          "props.label.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/New Tag"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "Banda 1 ON"
+                    },
+                    {
+                      "input": false,
+                      "output": "Banda 1 OFF"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          },
+          "props.style.fill": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/BandaP1"
+              },
+              "transforms": [
+                {
+                  "fallback": "#000000",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "#47FF47"
+                    },
+                    {
+                      "input": false,
+                      "output": "#FF4747"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "label": {
+            "style": {
+              "color": "#000000",
+              "fill": "#C34747",
+              "fontWeight": "bold"
+            }
+          },
+          "value": {
+            "text": ""
+          }
+        },
+        "type": "ia.symbol.motor"
+      },
+      {
+        "meta": {
+          "name": "Barra",
+          "tooltip": {
+            "enabled": true
+          }
+        },
+        "position": {
+          "height": 46.09,
+          "rotate": {
+            "anchor": "36% 50%"
+          },
+          "width": 180.05,
+          "x": 499.622,
+          "y0": 439.970995903
+        },
+        "propConfig": {
+          "position.y": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/En_Piso"
+              },
+              "transforms": [
+                {
+                  "fallback": 473,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 1,
+                      "output": 371
+                    },
+                    {
+                      "input": 2,
+                      "output": 260
+                    },
+                    {
+                      "input": 3,
+                      "output": 141
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M0,0 l999,0 0,36 -999,0 0,-36z",
+              "fill": {
+                "paint": "#fc0"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,26 l999,-16 0,26 -999,0 0,-10z",
+              "fill": {
+                "paint": "#fac700"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,28 l999,-16 0,24 -999,0 0,-8z",
+              "fill": {
+                "paint": "#f5c200"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,29 l999,-16 0,23 -999,0 0,-7z",
+              "fill": {
+                "paint": "#f0bd00"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,0 l999,0 0,36 -999,0 0,-36",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M5,41 l988,0 0,-5 -988,0 0,5z",
+              "fill": {
+                "paint": "#333"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            }
+          ],
+          "viewBox": "0 0 999 41"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Cardboard box, open"
+        },
+        "position": {
+          "height": 63,
+          "rotate": {
+            "anchor": "50% -12%"
+          },
+          "x": 525.2630157470703
+        },
+        "propConfig": {
+          "position.width": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/En_Piso"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 3,
+                      "output": true
+                    },
+                    {
+                      "input": 2,
+                      "output": true
+                    },
+                    {
+                      "input": 1,
+                      "output": true
+                    },
+                    {
+                      "input": 0,
+                      "output": null
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          },
+          "position.y": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/En_Piso"
+              },
+              "transforms": [
+                {
+                  "fallback": "",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 2,
+                      "output": 219
+                    },
+                    {
+                      "input": 3,
+                      "output": 99
+                    },
+                    {
+                      "input": 1,
+                      "output": 340
+                    },
+                    {
+                      "input": 0,
+                      "output": 442
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M299,0 l50,99 500,0 -50,-99 -500,0z",
+              "fill": {
+                "paint": "#633"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M199,49 l500,0 0,500 -500,0 0,-500z",
+              "fill": {
+                "paint": "#c2a385"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M199,49 l100,-49 500,0 -100,49 -500,0z",
+              "fill": {
+                "paint": "#963"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M699,549 l0,-500 100,-49 0,499 -100,50z",
+              "fill": {
+                "paint": "#ad845b"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M124,199 l75,-150 500,0 -75,150 -500,0z",
+              "fill": {
+                "paint": "#d6c2ad"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M0,124 l99,-50 200,-74 -100,49 -199,75z",
+              "fill": {
+                "paint": "#d6c2ad"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M699,49 l100,-49 200,74 -100,50 -200,-75z",
+              "fill": {
+                "paint": "#d6c2ad"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M299,0 l0,49",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            }
+          ],
+          "viewBox": "0 0 999 549"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay"
+        },
+        "position": {
+          "height": 56,
+          "width": 144,
+          "x": 746.88
+        },
+        "propConfig": {
+          "meta.visible": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/En_Piso"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 3,
+                      "output": true
+                    },
+                    {
+                      "input": 2,
+                      "output": true
+                    },
+                    {
+                      "input": 1,
+                      "output": true
+                    },
+                    {
+                      "input": 0,
+                      "output": false
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          },
+          "position.y": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/En_Piso"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 1,
+                      "output": 348
+                    },
+                    {
+                      "input": 2,
+                      "output": 220
+                    },
+                    {
+                      "input": 3,
+                      "output": 88
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          },
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]Proyecto/Cantidad_producto_canasta"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "numberFormat": "#,##0"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Plastic pallet 1 (front view)"
+        },
+        "position": {
+          "height": 21.44,
+          "width": 193.07,
+          "x": 494.3226763916016,
+          "y": 501.35125
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M0,81 l999,0 0,-10 -999,0 0,10z",
+              "fill": {
+                "paint": "#333"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,30 l999,0 0,-11 -999,0 0,11z",
+              "fill": {
+                "paint": "#333"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M437,19 l124,0 0,62 -124,0 0,-62z",
+              "fill": {
+                "paint": "#7f7f7f"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M457,19 l84,0 0,62 -84,0 0,-62z",
+              "fill": {
+                "paint": "#b2b2b2"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,19 l103,0 0,62 -103,0 0,-62z",
+              "fill": {
+                "paint": "#7f7f7f"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M18,19 l69,0 0,62 -69,0 0,-62z",
+              "fill": {
+                "paint": "#b2b2b2"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M895,19 l104,0 0,62 -104,0 0,-62z",
+              "fill": {
+                "paint": "#7f7f7f"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M912,19 l68,0 0,62 -68,0 0,-62z",
+              "fill": {
+                "paint": "#b2b2b2"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,0 l999,0 0,19 -999,0 0,-19z",
+              "fill": {
+                "paint": "#b2b2b2"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,0 l103,0 0,19 -103,0 0,-19z",
+              "fill": {
+                "paint": "#ccc"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M437,0 l124,0 0,19 -124,0 0,-19z",
+              "fill": {
+                "paint": "#ccc"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M895,0 l104,0 0,19 -104,0 0,-19z",
+              "fill": {
+                "paint": "#ccc"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,81 l999,0 0,22 -999,0 0,-22z",
+              "fill": {
+                "paint": "#b2b2b2"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,81 l103,0 0,22 -103,0 0,-22z",
+              "fill": {
+                "paint": "#ccc"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M437,81 l124,0 0,22 -124,0 0,-22z",
+              "fill": {
+                "paint": "#ccc"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M895,81 l104,0 0,22 -104,0 0,-22z",
+              "fill": {
+                "paint": "#ccc"
+              },
+              "name": "path",
+              "type": "path"
+            },
+            {
+              "d": "M0,0 l999,0 0,19 -999,0 0,-19",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M0,81 l999,0 0,22 -999,0 0,-22",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            }
+          ],
+          "viewBox": "0 0 999 103"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Long vertical segment"
+        },
+        "position": {
+          "height": 152.21,
+          "width": 73.35,
+          "x": 650.3326763916016,
+          "y": 424.95125
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M0,999 l0,-999 124,0 0,999 -124,0z",
+              "fill": {
+                "paint": "#BBD3E4"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M10,999 l0,-999 103,0 0,999 -103,0z",
+              "fill": {
+                "paint": "#696C76"
+              },
+              "name": "path",
+              "type": "path"
+            }
+          ],
+          "style": {
+            "color": "#905858"
+          },
+          "viewBox": "0 0 124 999"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Long vertical segment_0"
+        },
+        "position": {
+          "height": 152.21,
+          "width": 73.35,
+          "x": 459.42267639160156,
+          "y": 424.18125
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M0,999 l0,-999 124,0 0,999 -124,0z",
+              "fill": {
+                "paint": "#c0c0c0"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#706AA8",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M10,999 l0,-999 103,0 0,999 -103,0z",
+              "fill": {
+                "paint": "#636370"
+              },
+              "name": "path",
+              "type": "path"
+            }
+          ],
+          "viewBox": "0 0 124 999"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Gauge"
+        },
+        "position": {
+          "height": 253.09,
+          "width": 621.13,
+          "x": 141.53,
+          "y": 730.63
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]Proyecto/P1_empacados"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "",
+          "innerAxis": {
+            "data": "secondaryValue",
+            "maxValue": 80,
+            "percentRadius": 85,
+            "show": false,
+            "width": 1
+          },
+          "outerAxis": {
+            "data": "value",
+            "maxValue": 10,
+            "percentRadius": 100,
+            "ranges": [
+              {
+                "color": "#35C0E0",
+                "end": 80,
+                "start": 0,
+                "width": 8
+              },
+              {
+                "color": "#2D7CE3",
+                "end": 105,
+                "start": 80,
+                "width": 12
+              },
+              {
+                "color": "#1A5EE5",
+                "end": 120,
+                "start": 105,
+                "width": 16
+              }
+            ],
+            "show": true,
+            "width": 1
+          }
+        },
+        "type": "ia.chart.gauge"
+      },
+      {
+        "meta": {
+          "name": "Gauge_0"
+        },
+        "position": {
+          "height": 253.1,
+          "width": 621,
+          "x": 829.11,
+          "y": 730.5
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]Proyecto/P2_empacados"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "",
+          "innerAxis": {
+            "data": "secondaryValue",
+            "maxValue": 80,
+            "percentRadius": 85,
+            "show": false,
+            "width": 1
+          },
+          "outerAxis": {
+            "data": "value",
+            "maxValue": 10,
+            "percentRadius": 100,
+            "ranges": [
+              {
+                "color": "#E585F1",
+                "end": 80,
+                "start": 0,
+                "width": 8
+              },
+              {
+                "color": "#DC34D6",
+                "end": 105,
+                "start": 80,
+                "width": 12
+              },
+              {
+                "color": "#BC059C",
+                "end": 120,
+                "start": 105,
+                "width": 16
+              }
+            ],
+            "show": true,
+            "width": 1
+          }
+        },
+        "type": "ia.chart.gauge"
+      },
+      {
+        "meta": {
+          "name": "Gauge_1"
+        },
+        "position": {
+          "height": 253.09,
+          "width": 621.13,
+          "x": 1470.63,
+          "y": 730.56
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]Proyecto/P3_empacados"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "",
+          "innerAxis": {
+            "data": "secondaryValue",
+            "maxValue": 80,
+            "percentRadius": 85,
+            "show": false,
+            "width": 1
+          },
+          "outerAxis": {
+            "data": "value",
+            "maxValue": 10,
+            "percentRadius": 100,
+            "ranges": [
+              {
+                "color": "#FB5797",
+                "end": 80,
+                "start": 0,
+                "width": 8
+              },
+              {
+                "color": "#EC378B",
+                "end": 105,
+                "start": 80,
+                "width": 12
+              },
+              {
+                "color": "#E90990",
+                "end": 120,
+                "start": 105,
+                "width": 16
+              }
+            ],
+            "show": true,
+            "width": 1
+          }
+        },
+        "type": "ia.chart.gauge"
+      },
+      {
+        "meta": {
+          "name": "Audio"
+        },
+        "position": {
+          "height": 55,
+          "width": 300,
+          "x": 748,
+          "y": 174
+        },
+        "propConfig": {
+          "props.source": {
+            "binding": {
+              "config": {
+                "connectTimeout": 60000,
+                "enableCookies": true,
+                "enableValueCache": true,
+                "polling": {
+                  "enabled": false,
+                  "rate": "30"
+                },
+                "request": {
+                  "auth": {
+                    "type": "None",
+                    "value": ""
+                  },
+                  "method": "GET",
+                  "url": "https://www.youtube.com/watch?v\u003dTTKwGRSt8So"
+                },
+                "socketTimeout": 60000
+              },
+              "type": "http"
+            }
+          }
+        },
+        "props": {
+          "loop": true,
+          "play": true
+        },
+        "type": "ia.display.audio"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\tsystem.perspective.openPopup(\n\tid\u003d\"popup1\",\n\tview\u003d\"Login\",\n\ttitle\u003d\"Iniciar Sesión\",\n\tmodal\u003dTrue,\n\tdraggable\u003dTrue,\n\tresizable\u003dFalse\n\t)\n\twhile True:\n\t\tif system.tag.readBlocking(\"[default]Proyecto/New Tag 2\")[0].value \u003d\u003d True:\n\t\t\tsystem.tag.writeBlocking(\"[default]Proyecto/SCADA_Producto\", int(1))\n\t\t\tsystem.tag.writeBlocking(\"[default]Proyecto/New Tag 2\",False)\n\t\t\tbreak"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Rectangular pushbutton 2"
+        },
+        "position": {
+          "height": 90,
+          "width": 170,
+          "x": 63.3437557220459,
+          "y": 129.9665069580078
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M17,17 l500,0 0,333 -500,0 0,-333z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M28,340 l72,-31 334,-250 72,-31 -478,0 0,312z",
+              "fill": {
+                "paint": "#44C2CB"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#7f7f7f",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M506,28 l-72,31 -334,250 -72,31 478,0 0,-312z",
+              "fill": {
+                "paint": "#578FA1"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#7f7f7f",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M100,58 l334,0 0,251 -334,0 0,-251z",
+              "fill": {
+                "paint": "#4BB7CE"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#7f7f7f",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M95,59 l-68,-32",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#fff",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M434,309 l73,31",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            }
+          ],
+          "viewBox": "0 0 534 367"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "custom": {
+          "number": 0
+        },
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\tsystem.perspective.openPopup(\n\tid\u003d\"popup1\",\n\tview\u003d\"Login\",\n\ttitle\u003d\"Iniciar Sesión\",\n\tmodal\u003dTrue,\n\tdraggable\u003dTrue,\n\tresizable\u003dFalse\n\t)\n\twhile True:\n\t\tif system.tag.readBlocking(\"[default]Proyecto/New Tag 2\")[0].value \u003d\u003d True:\n\t\t\tsystem.tag.writeBlocking(\"[default]Proyecto/SCADA_Producto\", int(2))\n\t\t\tsystem.tag.writeBlocking(\"[default]Proyecto/New Tag 2\",False)\n\t\t\tbreak"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Rectangular pushbutton 3"
+        },
+        "position": {
+          "height": 90,
+          "width": 170,
+          "x": 63.3258557220459,
+          "y": 243.2375069580078
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M17,17 l500,0 0,333 -500,0 0,-333z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M28,340 l72,-31 334,-250 72,-31 -478,0 0,312z",
+              "fill": {
+                "paint": "#9C7BC2"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#7f7f7f",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M506,28 l-72,31 -334,250 -72,31 478,0 0,-312z",
+              "fill": {
+                "paint": "#9A4AC2"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#7f7f7f",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M100,58 l334,0 0,251 -334,0 0,-251z",
+              "fill": {
+                "paint": "#B16CD2"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#7f7f7f",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M95,59 l-68,-32",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#fff",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M434,309 l73,31",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            }
+          ],
+          "viewBox": "0 0 534 367"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\tsystem.perspective.openPopup(\n\tid\u003d\"popup1\",\n\tview\u003d\"Login\",\n\ttitle\u003d\"Iniciar Sesión\",\n\tmodal\u003dTrue,\n\tdraggable\u003dTrue,\n\tresizable\u003dFalse\n\t)\n\twhile True:\n\t\tif system.tag.readBlocking(\"[default]Proyecto/New Tag 2\")[0].value \u003d\u003d True:\n\t\t\tsystem.tag.writeBlocking(\"[default]Proyecto/SCADA_Producto\", int(3))\n\t\t\tsystem.tag.writeBlocking(\"[default]Proyecto/New Tag 2\",False)\n\t\t\tbreak"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Rectangular pushbutton 4"
+        },
+        "position": {
+          "height": 90,
+          "width": 170,
+          "x": 63.3258557220459,
+          "y": 359.9445069580078
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M17,17 l500,0 0,333 -500,0 0,-333z",
+              "fill": {
+                "paint": "#000"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M28,340 l72,-31 334,-250 72,-31 -478,0 0,312z",
+              "fill": {
+                "paint": "#E448A9"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#7f7f7f",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M506,28 l-72,31 -334,250 -72,31 478,0 0,-312z",
+              "fill": {
+                "paint": "#810D48"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#7f7f7f",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M100,58 l334,0 0,251 -334,0 0,-251z",
+              "fill": {
+                "paint": "#DC228F"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#7f7f7f",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M95,59 l-68,-32",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#fff",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M434,309 l73,31",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            }
+          ],
+          "viewBox": "0 0 534 367"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Motor_0"
+        },
+        "position": {
+          "height": 108.26,
+          "width": 105.7,
+          "x": 353.48267639160156,
+          "y": 198.75125
+        },
+        "propConfig": {
+          "props.label.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/New Tag"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "Banda 2 ON"
+                    },
+                    {
+                      "input": false,
+                      "output": "Banda 2 OFF"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          },
+          "props.style.fill": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/BandaP2"
+              },
+              "transforms": [
+                {
+                  "fallback": "#000000",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "#47FF47"
+                    },
+                    {
+                      "input": false,
+                      "output": "#FF4747"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "label": {
+            "style": {
+              "color": "#000000",
+              "fill": "#C34747",
+              "fontWeight": "bold"
+            }
+          },
+          "value": {
+            "text": ""
+          }
+        },
+        "type": "ia.symbol.motor"
+      },
+      {
+        "meta": {
+          "name": "Motor_1"
+        },
+        "position": {
+          "height": 108.27,
+          "width": 105.7,
+          "x": 353.93267639160155,
+          "y": 316.78125
+        },
+        "propConfig": {
+          "props.label.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/New Tag"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "Banda 3 ON"
+                    },
+                    {
+                      "input": false,
+                      "output": "Banda 3 OFF"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          },
+          "props.style.fill": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/BandaP3"
+              },
+              "transforms": [
+                {
+                  "fallback": "#000000",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "#47FF47"
+                    },
+                    {
+                      "input": false,
+                      "output": "#FF4747"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "label": {
+            "style": {
+              "color": "#000000",
+              "fill": "#C34747",
+              "fontWeight": "bold"
+            }
+          },
+          "value": {
+            "text": ""
+          }
+        },
+        "type": "ia.symbol.motor"
+      },
+      {
+        "meta": {
+          "name": "Motor_2"
+        },
+        "position": {
+          "height": 108.27,
+          "width": 105.7,
+          "x": 353.93267639160155,
+          "y": 430.38125
+        },
+        "propConfig": {
+          "props.label.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/New Tag"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "Banda 4 ON"
+                    },
+                    {
+                      "input": false,
+                      "output": "Banda 4 OFF"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          },
+          "props.style.fill": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/BandaSalida"
+              },
+              "transforms": [
+                {
+                  "fallback": "#000000",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "#47FF47"
+                    },
+                    {
+                      "input": false,
+                      "output": "#FF4747"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "label": {
+            "style": {
+              "color": "#000000",
+              "fill": "#C34747",
+              "fontWeight": "bold"
+            }
+          },
+          "value": {
+            "text": ""
+          }
+        },
+        "type": "ia.symbol.motor"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "draggable": true,
+                "id": "popup1",
+                "modal": true,
+                "overlayDismiss": true,
+                "resizable": true,
+                "showCloseIcon": true,
+                "title": "Autenticación",
+                "type": "open",
+                "viewParams": {
+                  "numbe": "5"
+                },
+                "viewPath": "Login",
+                "viewportBound": false
+              },
+              "scope": "C",
+              "type": "popup"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 54,
+          "rotate": {
+            "anchor": "50% 25%"
+          },
+          "width": 173,
+          "x": 2126.31,
+          "y": -0.12
+        },
+        "props": {
+          "image": {
+            "icon": {
+              "path": "material/account_circle"
+            }
+          },
+          "style": {
+            "backgroundColor": "#504AB5"
+          },
+          "text": "Ingresar",
+          "textStyle": {
+            "fontSize": 20
+          }
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "SimpleGauge"
+        },
+        "position": {
+          "height": 322,
+          "width": 500,
+          "x": 1362.52625,
+          "y": 199.0197385559082
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]Proyecto/ProductosEmpacados"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "arc": {
+            "color": "#D88777"
+          },
+          "arcBackground": {
+            "color": "#F38720"
+          },
+          "endAngle": 405,
+          "label": {
+            "offsetY": 12
+          },
+          "maxValue": 10,
+          "startAngle": 135
+        },
+        "type": "ia.chart.simple-gauge"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 52.55,
+          "width": 1179.08,
+          "x": 130.06,
+          "y": 633.47
+        },
+        "props": {
+          "style": {
+            "fontFamily": "Roboto",
+            "fontSize": 35,
+            "fontWeight": "bold"
+          },
+          "text": "Cantidad de productos empacados  por cada tipo"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 83,
+          "rotate": {
+            "anchor": "50% 147%"
+          },
+          "width": 698,
+          "x": 1274.71,
+          "y": 71.17232824707031
+        },
+        "props": {
+          "style": {
+            "fontFamily": "Roboto",
+            "fontSize": 35,
+            "fontWeight": "bold"
+          },
+          "text": "Cantidad de productos empacados totales"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Icon"
+        },
+        "position": {
+          "height": 47.16,
+          "rotate": {
+            "anchor": "-83% 25%"
+          },
+          "width": 48.53,
+          "x": 666.7066763916016,
+          "y": 24.35305
+        },
+        "propConfig": {
+          "props.color": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/En_Piso"
+              },
+              "transforms": [
+                {
+                  "fallback": "#FF0000",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 3,
+                      "output": "#00D900"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "path": "material/brightness_1"
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "meta": {
+          "name": "Icon_0"
+        },
+        "position": {
+          "height": 47.16,
+          "rotate": {
+            "anchor": "-83% 25%"
+          },
+          "width": 48.54,
+          "x": 666.7326763916016,
+          "y": 157.89125
+        },
+        "propConfig": {
+          "props.color": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/En_Piso"
+              },
+              "transforms": [
+                {
+                  "fallback": "#FF0000",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 2,
+                      "output": "#00D900"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "path": "material/brightness_1"
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "meta": {
+          "name": "Icon_1"
+        },
+        "position": {
+          "height": 47.16,
+          "rotate": {
+            "anchor": "-83% 25%"
+          },
+          "width": 48.54,
+          "x": 667.2026763916016,
+          "y": 283.94125
+        },
+        "propConfig": {
+          "props.color": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/En_Piso"
+              },
+              "transforms": [
+                {
+                  "fallback": "#FF0000",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 1,
+                      "output": "#00D900"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "path": "material/brightness_1"
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "meta": {
+          "name": "Label_1"
+        },
+        "position": {
+          "height": 79,
+          "rotate": {
+            "anchor": "50% -17%"
+          },
+          "width": 205,
+          "x": 27.65,
+          "y": 30.8
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/CurrentlyMaking"
+              },
+              "transforms": [
+                {
+                  "fallback": "",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 1,
+                      "output": "Producto 1 ejecutandose"
+                    },
+                    {
+                      "input": 2,
+                      "output": "Producto 2 ejecutandose"
+                    },
+                    {
+                      "input": 3,
+                      "output": "Producto 3 ejecutandose"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "backgroundClip": "border-box",
+            "backgroundColor": "#F5F531",
+            "backgroundRepeat": "repeat no-repeat",
+            "fontSize": 25,
+            "fontWeight": "bold"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Robot"
+        },
+        "position": {
+          "height": 140,
+          "width": 147,
+          "x": 723.5258282470703,
+          "y": 431.438125
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M0,999 l0,-34 67,0 0,-170 68,0 16,-322 272,-219 -220,-171 -80,18 12,34 -79,16 -15,-34 46,-8 -24,-68 -46,8 -14,-32 80,-17 14,33 157,-33 287,203 18,68 -222,254 0,34 68,0 0,270 52,0 0,136 16,0 0,34 -473,0z",
+              "fill": {
+                "paint": "#FC0108"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M337,559 l0,236",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M405,829 l0,136",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M457,965 l-390,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M135,795 l270,0",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M49,8 l52,135",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M97,33 l26,68",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M163,597 l-28,-72 28,-74 74,-28 72,28 28,74 -28,72 -72,30 -74,-30z",
+              "fill": {
+                "paint": "#AF0D01"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M441,302 l-18,-48 18,-49 50,-20 48,20 20,49 -20,48 -48,19 -50,-19z",
+              "fill": {
+                "paint": "#AF0D01"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M199,87 l-14,-38 14,-36 38,-13 36,13 14,36 -14,38 -36,14 -38,-14z",
+              "fill": {
+                "paint": "#AF0D01"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            }
+          ],
+          "style": {
+            "fill": "#E75151"
+          },
+          "viewBox": "0 0 559 999"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Label_2"
+        },
+        "position": {
+          "height": 48,
+          "rotate": {
+            "anchor": "50% -17%"
+          },
+          "width": 270,
+          "x": 835.9635009765625,
+          "y": 404.591875
+        },
+        "propConfig": {
+          "meta.visible": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]Proyecto/EnsamblandoPallet"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "backgroundClip": "border-box",
+            "backgroundColor": "#F5F531",
+            "backgroundRepeat": "repeat no-repeat",
+            "fontSize": 25,
+            "fontWeight": "bold"
+          },
+          "text": " Ensamblando Pallet"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "SimpleGauge_0"
+        },
+        "position": {
+          "height": 142,
+          "width": 260,
+          "x": 835.97,
+          "y": 451.7104160308838
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]Proyecto/Cantidad_producto_pallet"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "arc": {
+            "color": "#F5AF10"
+          },
+          "maxValue": 6
+        },
+        "type": "ia.chart.simple-gauge"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "position": {
+      "x": 1017.9947509765625,
+      "y": 139.47915649414062
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#DDE6E9"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

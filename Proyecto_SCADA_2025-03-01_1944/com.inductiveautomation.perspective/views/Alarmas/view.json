@@ -1,0 +1,184 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "width": 2249
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "AlarmStatusTable"
+        },
+        "position": {
+          "height": 682,
+          "width": 1605,
+          "x": 63,
+          "y": 52
+        },
+        "type": "ia.display.alarmstatustable"
+      },
+      {
+        "meta": {
+          "name": "Icon"
+        },
+        "position": {
+          "height": 153,
+          "width": 160,
+          "x": 1881,
+          "y": 77
+        },
+        "propConfig": {
+          "props.color": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/ElevadorMoviendose"
+              },
+              "transforms": [
+                {
+                  "fallback": "#B8CFCF00",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 1,
+                      "output": "#FFFF00"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "path": "material/warning",
+          "style": {
+            "borderColor": "#000000"
+          }
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 92,
+          "width": 471,
+          "x": 1725.989501953125,
+          "y": 229.89791412353514
+        },
+        "propConfig": {
+          "meta.visible": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]Proyecto/ElevadorMoviendose"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "text": "Precaución ascensor en funcionamiento",
+          "textStyle": {
+            "fontSize": 25
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 92,
+          "width": 508,
+          "x": 1726.489501953125,
+          "y": 517
+        },
+        "propConfig": {
+          "meta.visible": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]Proyecto/ElevadorMoviendose"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "text": "Precaución ensamblaje en funcionamiento",
+          "textStyle": {
+            "fontSize": 25
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Icon_0"
+        },
+        "position": {
+          "height": 153,
+          "width": 160,
+          "x": 1886,
+          "y": 377
+        },
+        "propConfig": {
+          "props.color": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Proyecto/ElevadorMoviendose"
+              },
+              "transforms": [
+                {
+                  "fallback": "#B8CFCF00",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 1,
+                      "output": "#FFFF00"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "path": "material/warning",
+          "style": {
+            "borderColor": "#000000"
+          }
+        },
+        "type": "ia.display.icon"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#DDE6E9"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

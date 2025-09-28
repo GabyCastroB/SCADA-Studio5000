@@ -1,0 +1,255 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 930,
+      "width": 2290
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "TimeSeriesChart"
+        },
+        "position": {
+          "height": 375.54,
+          "width": 1980.73,
+          "x": 124.52,
+          "y": 51
+        },
+        "propConfig": {
+          "props.series[0].data": {
+            "binding": {
+              "config": {
+                "aggregate": "MinMax",
+                "avoidScanClassValidation": true,
+                "dateRange": {
+                  "mostRecent": "5",
+                  "mostRecentUnits": "MIN"
+                },
+                "enableValueCache": true,
+                "ignoreBadQuality": false,
+                "polling": {
+                  "enabled": true,
+                  "rate": "1"
+                },
+                "preventInterpolation": false,
+                "returnFormat": "Wide",
+                "returnSize": {
+                  "delay": "1",
+                  "delayUnits": "SEC",
+                  "type": "INTERVAL"
+                },
+                "tags": [
+                  {
+                    "path": "[default]Proyecto/P1_empacados"
+                  },
+                  {
+                    "path": "[default]Proyecto/P2_empacados"
+                  },
+                  {
+                    "path": "[default]Proyecto/P3_empacados"
+                  }
+                ],
+                "valueFormat": "DATASET"
+              },
+              "type": "tag-history"
+            }
+          }
+        },
+        "props": {
+          "autoGenerateSeriesNames": true,
+          "defaultStyles": {
+            "colorScheme": "PuRd"
+          },
+          "legend": {
+            "style": {
+              "color": "#130F0FF5"
+            },
+            "visible": true
+          },
+          "plots": [
+            {
+              "axes": [
+                {
+                  "alignment": "left",
+                  "grid": {
+                    "color": "",
+                    "dashArray": 0,
+                    "opacity": 0.9,
+                    "style": {
+                      "classes": ""
+                    },
+                    "visible": true
+                  },
+                  "label": {
+                    "font": {
+                      "color": "",
+                      "size": 10
+                    },
+                    "offset": 0,
+                    "style": {
+                      "classes": ""
+                    },
+                    "text": "",
+                    "visible": true
+                  },
+                  "max": 10,
+                  "min": 0,
+                  "name": "",
+                  "style": {
+                    "classes": "",
+                    "color": "#0F0000"
+                  },
+                  "tick": {
+                    "color": "",
+                    "count": "Auto",
+                    "label": {
+                      "font": {
+                        "color": "",
+                        "size": 10
+                      },
+                      "format": "Auto",
+                      "style": {
+                        "classes": ""
+                      }
+                    },
+                    "style": {
+                      "classes": ""
+                    }
+                  },
+                  "width": 60
+                }
+              ],
+              "markers": [],
+              "relativeWeight": 1,
+              "trends": []
+            }
+          ],
+          "series": [
+            {
+              "name": "Boiler"
+            }
+          ],
+          "style": {
+            "color": "#060606"
+          },
+          "timeAxis": {
+            "color": "#03000054",
+            "style": {
+              "color": "#0E0E0E70",
+              "fill": "#2E1717"
+            },
+            "tick": {
+              "color": "#09020263"
+            }
+          },
+          "timeRange": {
+            "visible": false
+          },
+          "title": {
+            "font": {
+              "color": "#2B0000",
+              "size": 25
+            },
+            "height": 35,
+            "text": "Cantidad de empaques por producto",
+            "visible": true
+          },
+          "xTrace": {
+            "line": {
+              "color": "#1C0C0C"
+            }
+          }
+        },
+        "type": "ia.chart.timeseries"
+      },
+      {
+        "meta": {
+          "name": "TimeSeriesChart_0"
+        },
+        "position": {
+          "height": 375.54,
+          "width": 1980.74,
+          "x": 123.89,
+          "y": 443.55
+        },
+        "propConfig": {
+          "props.series[0].data": {
+            "binding": {
+              "config": {
+                "aggregate": "LastValue",
+                "avoidScanClassValidation": true,
+                "dateRange": {
+                  "mostRecent": "5",
+                  "mostRecentUnits": "MIN"
+                },
+                "enableValueCache": true,
+                "ignoreBadQuality": false,
+                "polling": {
+                  "enabled": true,
+                  "rate": "1"
+                },
+                "preventInterpolation": false,
+                "returnFormat": "Wide",
+                "returnSize": {
+                  "delay": "1",
+                  "delayUnits": "SEC",
+                  "type": "INTERVAL"
+                },
+                "tags": [
+                  {
+                    "path": "[default]Proyecto/Cantidad_producto_pallet"
+                  }
+                ],
+                "valueFormat": "DATASET"
+              },
+              "type": "tag-history"
+            }
+          }
+        },
+        "props": {
+          "autoGenerateSeriesNames": true,
+          "defaultStyles": {
+            "colorScheme": "RdPu"
+          },
+          "legend": {
+            "style": {
+              "color": "#130F0F"
+            },
+            "visible": true
+          },
+          "series": [
+            {
+              "name": "Boiler"
+            }
+          ],
+          "timeRange": {
+            "visible": false
+          },
+          "title": {
+            "font": {
+              "color": "#2B0000",
+              "size": 25
+            },
+            "height": 35,
+            "text": "Cantidad de productos en el Pallet",
+            "visible": true
+          }
+        },
+        "type": "ia.chart.timeseries"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#DDE6E9"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

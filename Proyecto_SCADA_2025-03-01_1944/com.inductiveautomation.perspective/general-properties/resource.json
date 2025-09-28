@@ -1,0 +1,16 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModificationSignature": "506996330dd108a0e153ef2bfcc4eba64b14bf437b308dfc979b2f06061c796f",
+    "lastModification": {
+      "actor": "gcastrob",
+      "timestamp": "2025-02-27T00:06:37Z"
+    }
+  }
+}

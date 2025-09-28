@@ -1,0 +1,232 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\n\timport time\n\tfrom time import sleep\n\t# Nombre de la etiqueta en Ignition\n\ttag_path \u003d \"[default]OPC/Start_HMI\"\n\t# Establecer la etiqueta en 1\n\tsystem.tag.writeBlocking(\"[default]Proyecto/HMI_stop\", [1])\n\tsystem.tag.writeBlocking(\"[default]Proyecto/SCADA_Producto\", int(0))\n\ttime.sleep(1)\n\tsystem.tag.writeBlocking(\"[default]Proyecto/HMI_stop\", [0])\n\t"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "STOP",
+          "tooltip": {
+            "style": {
+              "color": "#FCFCFC"
+            },
+            "text": "STOP"
+          }
+        },
+        "position": {
+          "height": 100,
+          "width": 100,
+          "x": 9,
+          "y": 139
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M689,965 l-123,34 -134,0 -123,-34 -115,-66 -95,-95 -66,-115 -33,-123 0,-134 33,-123 66,-115 95,-95 115,-66 123,-33 134,0 123,33 115,66 95,95 66,115 34,123 0,134 -34,123 -66,115 -95,95 -115,66z",
+              "fill": {
+                "paint": "#D22222"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M352,920 l-120,-51 -88,-84 -60,-103 -32,-120 0,-122 32,-116 60,-103 88,-88 103,-59 116,-33 122,0 118,33 88,60 98,105 -234,-103 -452,604 161,180z",
+              "fill": {
+                "paint": "#FF201E"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#b2b2b2",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M648,864 l-99,26 -101,0 -100,-26 -88,-53 -73,-71 -53,-90 -26,-100 0,-101 26,-99 53,-90 71,-71 90,-53 100,-26 101,0 99,26 90,53 71,71 53,90 26,99 0,101 -26,100 -53,90 -71,71 -90,53z",
+              "fill": {
+                "paint": "#f00"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M558,798 l-118,0 -111,-45 -84,-84 -45,-109 0,-118 45,-111 84,-84 109,-45 118,0 111,45 84,84 45,109 0,120 -45,109 -84,84 -109,45",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#dc0000",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M549,751 l-100,0 -94,-37 -71,-71 -37,-93 0,-99 37,-93 71,-72 93,-37 99,0 93,37 72,72 37,91 0,101 -37,93 -72,71 -91,37",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#dc0000",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M809,260 l53,90 26,99 0,101 -26,100 -53,90 -71,71 -90,53 -99,26 -101,0 -100,-26 -88,-53 -73,-71",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#fff",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "text": "STOP",
+              "type": "textPath"
+            }
+          ],
+          "style": {
+            "color": "#F4F4F4"
+          },
+          "text": "STOP",
+          "viewBox": "0 0 999 999"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\timport time\n\tfrom time import sleep\n\t# Nombre de la etiqueta en Ignition\n\ttag_path \u003d \"[default]OPC/Start_HMI\"\n\t\n\t# Establecer la etiqueta en 1\n\tsystem.tag.writeBlocking(\"[default]Proyecto/HMI_start\", [1])\n\ttime.sleep(1)\n\tsystem.tag.writeBlocking(\"[default]Proyecto/HMI_start\", [0])"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "START"
+        },
+        "position": {
+          "height": 100,
+          "width": 100,
+          "x": 9,
+          "y": 288
+        },
+        "props": {
+          "elements": [
+            {
+              "d": "M689,965 l-123,34 -134,0 -123,-34 -114,-66 -96,-96 -66,-114 -33,-123 0,-134 33,-123 66,-114 96,-96 114,-66 123,-33 134,0 123,33 114,66 96,96 66,114 34,123 0,134 -34,123 -66,114 -96,96 -114,66z",
+              "fill": {
+                "paint": "#47D131"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M352,920 l-120,-51 -88,-84 -60,-103 -32,-120 0,-122 32,-116 60,-103 88,-88 103,-59 116,-33 122,0 118,33 88,60 98,105 -235,-103 -451,604 161,180z",
+              "fill": {
+                "paint": "#51DC4D"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#b2b2b2",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M648,864 l-99,26 -102,0 -99,-26 -88,-53 -73,-71 -53,-90 -26,-99 0,-102 26,-99 53,-90 71,-71 90,-53 99,-26 102,0 99,26 90,53 71,71 53,90 26,99 0,102 -26,99 -53,90 -71,71 -90,53z",
+              "fill": {
+                "paint": "#3c3"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#4c4c4c",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M558,798 l-118,0 -111,-45 -84,-84 -45,-109 0,-118 45,-111 84,-84 109,-45 118,0 111,45 84,84 45,109 0,120 -45,109 -84,84 -109,45z",
+              "fill": {
+                "paint": "#3c3"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#31b331",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M549,751 l-100,0 -93,-37 -72,-72 -37,-91 0,-100 37,-94 72,-71 91,-37 100,0 94,37 71,71 37,92 0,102 -37,91 -71,72 -92,37z",
+              "fill": {
+                "paint": "#3c3"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#31b331",
+                "width": "2"
+              },
+              "type": "path"
+            },
+            {
+              "d": "M809,260 l53,90 26,99 0,102 -26,99 -53,90 -71,71 -90,53 -99,26 -102,0 -99,-26 -88,-53 -73,-71",
+              "fill": {
+                "paint": "transparent"
+              },
+              "name": "path",
+              "stroke": {
+                "paint": "#fff",
+                "width": "2"
+              },
+              "type": "path"
+            }
+          ],
+          "viewBox": "0 0 999 999"
+        },
+        "type": "ia.shapes.svg"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#7AA9B8D1"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}
