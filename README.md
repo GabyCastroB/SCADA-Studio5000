@@ -7,6 +7,14 @@ Each implementation is also accompanied by a **YouTube video** explaining its op
 
 ---
 
+## ⚙️ Technologies Used
+- **Studio 5000 (Allen Bradley / Rockwell Automation)** → Ladder programming
+- **Factory I/O** → Industrial process simulation / digital twin
+- **Node-RED** → IoT integration and dashboards
+- **Ignition** → SCADA for monitoring and control (in some projects)
+
+---
+
 ## 📂 Developed Challenges
 
 ### 🔹 Challenge 1 – Separation Station in Factory I/O
@@ -51,10 +59,3 @@ Each implementation is also accompanied by a **YouTube video** explaining its op
 - **Result:** A comprehensive solution covering control logic, realistic simulation, and SCADA visualization.  
 - 📺 **Video:** [Watch on YouTube](https://www.youtube.com/watch?v=YjniLJiRvuo&list=PLljdzVI2VkAUmnLpZfumW2bdHxuZ3lAqO&index=4)  
 
----
-
-## ⚙️ Technologies Used
-- **Studio 5000 (Allen Bradley / Rockwell Automation)** → Ladder programming  
-- **Factory I/O** → Industrial process simulation / digital twin  
-- **Node-RED** → IoT integration and dashboards  
-- **Ignition** → SCADA for monitoring and control (in some projects)  
