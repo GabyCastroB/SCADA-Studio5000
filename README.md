@@ -42,6 +42,17 @@ Además, cada implementación cuenta con un **video en YouTube** donde se explic
 
 ---
 
+### 🔹 Reto Final – Proceso de manufactura + Gemelo digital + SCADA  
+- **Objetivo:** Desarrollar la lógica completa para un proceso de manufactura, construir su gemelo digital en Factory I/O e implementar SCADA en Ignition.  
+- **Desarrollo:**
+  - Diseño y programación de la **lógica en Ladder (Studio 5000)** para manejar el proceso manufacturero.  
+  - Creación del gemelo digital en **Factory I/O**, simulando el sistema real con todos sus componentes y comportamiento.  
+  - Implementación de un proyecto SCADA en **Ignition**, conectando variables del proceso con interfaces gráficas, alarmas, control y monitoreo.  
+- **Resultado:** Una solución integral que va desde la lógica de control hasta la visualización SCADA, pasando por la simulación realista del sistema.  
+- 📺 **Video:** [Ver en YouTube](https://www.youtube.com/watch?v=YjniLJiRvuo&list=PLljdzVI2VkAUmnLpZfumW2bdHxuZ3lAqO&index=4)  
+
+---
+
 ## ⚙️ Tecnologías utilizadas
 - **Studio 5000 (Allen Bradley / Rockwell Automation)** → Programación Ladder.  
 - **Factory I/O** → Simulación de procesos industriales.  
