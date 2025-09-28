@@ -1,60 +1,60 @@
 # SCADA-Studio5000
 
-Este repositorio reúne los **archivos Ladder (Studio 5000)** desarrollados para distintos retos de **automatización y control industrial**.  
-Cada reto incluye su respectiva **simulación en Factory I/O** y, en algunos casos, integración con **Ignition** y **Node-RED**, mostrando aplicaciones de **PLC, SCADA e IoT**.  
+This repository brings together **Ladder (Studio 5000) files** developed for different challenges in **automation and industrial control**.  
+Each challenge includes its corresponding **simulation in Factory I/O**, and in some cases, integration with **Ignition** and **Node-RED**, showcasing applications of **PLC, SCADA, and IoT**.  
 
-Además, cada implementación cuenta con un **video en YouTube** donde se explica el funcionamiento y la lógica aplicada.  
-
----
-
-## 📂 Retos desarrollados
-
-### 🔹 Reto 1 – Separation Station en Factory I/O
-- **Objetivo:** Implementar la escena **Separation Station** de Factory I/O.  
-- **Desarrollo:**
-  - Creación de toda la lógica de control en **Studio 5000 (Ladder)**.  
-  - Configuración de la comunicación entre el PLC y Factory I/O.  
-  - Prueba completa de la simulación de separación de piezas.  
-- **Resultado:** Un sistema funcional que controla la estación de separación de manera automática.  
-- 📺 **Video:** [Ver en YouTube](https://youtu.be/w7zbR262NNk)  
+Each implementation is also accompanied by a **YouTube video** explaining its operation and the applied logic.  
 
 ---
 
-### 🔹 Reto 2 – PLC Allen Bradley + IoT (Node-RED)
-- **Objetivo:** Integrar un **PLC Allen Bradley** con Factory I/O y conectarlo al **Internet de las Cosas (IoT)**.  
-- **Desarrollo:**
-  - Programación Ladder en Studio 5000 para controlar la planta simulada en Factory I/O.  
-  - Configuración de la comunicación con **Node-RED**, enviando datos del proceso en tiempo real.  
-  - Visualización de variables y estados del sistema en dashboards IoT.  
-- **Resultado:** Demostración de cómo los PLC industriales pueden conectarse con plataformas IoT para supervisión remota.  
-- 📺 **Video:** [Ver en YouTube](https://www.youtube.com/watch?v=eCGR5lQwbcU&list=PLljdzVI2VkAVK_dyDJLEpDmJcOQkOH6A5&index=5)  
+## 📂 Developed Challenges
+
+### 🔹 Challenge 1 – Separation Station in Factory I/O
+- **Goal:** Implement the **Separation Station** scene in Factory I/O.  
+- **Development:**
+  - Full control logic created in **Studio 5000 (Ladder)**.  
+  - Configuration of communication between the PLC and Factory I/O.  
+  - Complete testing of the part-separation simulation.  
+- **Result:** A functional system that automatically controls the separation station.  
+- 📺 **Video:** [Watch on YouTube](https://youtu.be/w7zbR262NNk)  
 
 ---
 
-### 🔹 Reto 3 – Control PID en Factory I/O
-- **Objetivo:** Implementar un **control PID en Ladder** para regular un proceso dinámico.  
-- **Desarrollo:**
-  - Configuración de un lazo de control PID en Studio 5000.  
-  - Integración con Factory I/O para simular un sistema físico.  
-  - Ajuste de parámetros (ganancias, tiempo integral y derivativo) para lograr estabilidad en el sistema.  
-- **Resultado:** Control automático en tiempo real dentro de la simulación, mostrando la efectividad del PID.  
-- 📺 **Video:** [Ver en YouTube](https://youtu.be/Ndq8UY__388)  
+### 🔹 Challenge 2 – Allen Bradley PLC + IoT (Node-RED)
+- **Goal:** Integrate an **Allen Bradley PLC** with Factory I/O and connect it to the **Internet of Things (IoT)**.  
+- **Development:**
+  - Ladder programming in Studio 5000 to control the simulated plant in Factory I/O.  
+  - Setup of communication with **Node-RED**, sending real-time process data.  
+  - Visualization of system variables and states through IoT dashboards.  
+- **Result:** Demonstrates how industrial PLCs can be connected to IoT platforms for remote monitoring.  
+- 📺 **Video:** [Watch on YouTube](https://www.youtube.com/watch?v=eCGR5lQwbcU&list=PLljdzVI2VkAVK_dyDJLEpDmJcOQkOH6A5&index=5)  
 
 ---
 
-### 🔹 Reto Final – Proceso de manufactura + Gemelo digital + SCADA  
-- **Objetivo:** Desarrollar la lógica completa para un proceso de manufactura, construir su gemelo digital en Factory I/O e implementar SCADA en Ignition.  
-- **Desarrollo:**
-  - Diseño y programación de la **lógica en Ladder (Studio 5000)** para manejar el proceso manufacturero.  
-  - Creación del gemelo digital en **Factory I/O**, simulando el sistema real con todos sus componentes y comportamiento.  
-  - Implementación de un proyecto SCADA en **Ignition**, conectando variables del proceso con interfaces gráficas, alarmas, control y monitoreo.  
-- **Resultado:** Una solución integral que va desde la lógica de control hasta la visualización SCADA, pasando por la simulación realista del sistema.  
-- 📺 **Video:** [Ver en YouTube](https://www.youtube.com/watch?v=YjniLJiRvuo&list=PLljdzVI2VkAUmnLpZfumW2bdHxuZ3lAqO&index=4)  
+### 🔹 Challenge 3 – PID Control in Factory I/O
+- **Goal:** Implement a **PID control in Ladder** to regulate a dynamic process.  
+- **Development:**
+  - Configuration of a PID control loop in Studio 5000.  
+  - Integration with Factory I/O to simulate a physical system.  
+  - Parameter tuning (proportional, integral, and derivative gains) to achieve system stability.  
+- **Result:** Automatic real-time control within the simulation, demonstrating the effectiveness of PID.  
+- 📺 **Video:** [Watch on YouTube](https://youtu.be/Ndq8UY__388)  
 
 ---
 
-## ⚙️ Tecnologías utilizadas
-- **Studio 5000 (Allen Bradley / Rockwell Automation)** → Programación Ladder.  
-- **Factory I/O** → Simulación de procesos industriales.  
-- **Node-RED** → Integración con IoT y dashboards.  
-- **Ignition** → Supervisión y control SCADA (en algunos proyectos).  
+### 🔹 Final Challenge – Manufacturing Process + Digital Twin + SCADA  
+- **Goal:** Develop the full control logic for a manufacturing process, build its digital twin in Factory I/O, and implement SCADA in Ignition.  
+- **Development:**
+  - Design and programming of the **Ladder logic (Studio 5000)** to manage the manufacturing process.  
+  - Creation of the digital twin in **Factory I/O**, simulating the real system with all its components and behavior.  
+  - Implementation of a SCADA project in **Ignition**, connecting process variables with graphical interfaces, alarms, control, and monitoring.  
+- **Result:** A comprehensive solution covering control logic, realistic simulation, and SCADA visualization.  
+- 📺 **Video:** [Watch on YouTube](https://www.youtube.com/watch?v=YjniLJiRvuo&list=PLljdzVI2VkAUmnLpZfumW2bdHxuZ3lAqO&index=4)  
+
+---
+
+## ⚙️ Technologies Used
+- **Studio 5000 (Allen Bradley / Rockwell Automation)** → Ladder programming  
+- **Factory I/O** → Industrial process simulation / digital twin  
+- **Node-RED** → IoT integration and dashboards  
+- **Ignition** → SCADA for monitoring and control (in some projects)  
