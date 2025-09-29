@@ -12,6 +12,7 @@ The project implements a small manufacturing line with:
 - **Node-RED** + **Python API (Flask)** for autonomy / market-driven production (uses Google Trends data).
 - Physical I/O mapping for a demo bench (motors and pneumatic actuators).
 
+![FactoryIO Digital twin](https://github.com/GabyCastroB/SCADA-Studio5000/blob/main/Images/FactoryIO.png)
 ---
 
 ## Quick project overview
@@ -118,6 +119,8 @@ Main features implemented
 * **Counters & history:** Display of items per pallet, total packaged items and historical records per product.
 
 * **Alarms:** Critical alarms when elevator is moving or robot is in operation to prevent unsafe interactions.
+
+![SCADA](https://github.com/GabyCastroB/SCADA-Studio5000/blob/main/Images/Ignition.png)
 
 ### Credits / Authors
 
